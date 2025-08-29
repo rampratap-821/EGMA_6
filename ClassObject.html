@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+class pala{
+        constructor(){
+            console.log("pala");
+            
+        }
+       getpala(){
+        return 200
+       }
+       }
+
+
+
+
+       class add extends pala{
+        constructor(){
+            super()
+            console.log("pala");
+
+            
+        }
+       getUser(){
+        return 20
+       }
+       }
+
+       const f1 = new add()
+       const f2 = new pala()
+
+       console.log(f1.getUser())
+       console.log(f1.getpala())
+1
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
